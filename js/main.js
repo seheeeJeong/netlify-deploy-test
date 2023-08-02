@@ -1,3 +1,3 @@
-function hi() {
+function news() {
   alert("hi");
 }

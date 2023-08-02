@@ -25,7 +25,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  border-bottom: 1px solid rgba(255, 255, 0, 0.692);
+  border-bottom: 1px solid rgba(72, 72, 8, 0.692);
   /* z-index를 적용할때는 */
   position: relative;
   z-index: 100;
@@ -35,6 +35,7 @@ header h1 {
 }
 
 header h1 a {
+  color: white;
 }
 
 /* menu */
@@ -90,11 +91,27 @@ main article p {
   font-size: 4vw;
 }
 
+main article div {
+}
+
+main article img {
+  width: 20%;
+  border-radius: 30%;
+}
+
+.score1 {
+  transform: translate(40px, 50px);
+}
+
+main article img:hover {
+  border: 1px solid black;
+  width: 30%;
+}
+
 /* footer */
 footer {
   position: absolute;
   width: 100%;
   bottom: 10px;
-
   text-align: center;
 }
